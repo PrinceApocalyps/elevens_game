@@ -37,6 +37,6 @@ public class Card
     //Returns the value of the called card as string
     public override string ToString()
     {
-        return $"{suit} of {value}";
+        return $"{value} of {suit}";
     }
 }

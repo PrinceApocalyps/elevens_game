@@ -62,7 +62,7 @@ public class Deck
 
     //summery
     //deal the top card of the deck if any cards remaining
-    public Card deal_card()
+    public Card? deal_card()
     {
         //check if any cards in deck
         if (isEmpty()) return null;
