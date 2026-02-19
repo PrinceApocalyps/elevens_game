@@ -77,7 +77,7 @@ public class Deck
     //print the suit and value of the card at index
     public string print(int index)
     {
-        return cards[index].ToString();
+        return cards.Last().ToString();
     }
 
     
